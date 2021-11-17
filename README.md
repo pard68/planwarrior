@@ -101,3 +101,4 @@ for the day.
 - DONE: Read config from file
 - TODO: Optional "live" mode?
 - TODO: Unit tests
+- TODO: `new` subcommand to create a plan file for current day
