@@ -2,6 +2,7 @@ import configparser
 
 
 CONFIG_TYPES = {
+    'data_dir': str,
     'resolution': int,
     'start_time': str,
     'end_time': str,
@@ -10,6 +11,7 @@ CONFIG_TYPES = {
 }
 
 DEFAULT_CONFIG = {
+    'data_dir': '~/.local/share/planwarrior/',
     'resolution': 30,
     'start_time': '8:00',
     'end_time': '17:00',
