@@ -29,6 +29,16 @@ Planwarrior is a tool for visualizing a plantext dayplanner in the terminal
 
 ## Usage
 
+Specify a config file path and a plan file path:
+
+```
+python3 planwarrior --config path/to/config --plan path/to/plan
+```
+
+Utilize the default config location (`~/.config/planwarrionr/config.ini`) and
+the current day's plan in the default plan directory
+(`~/.local/share/planwarrior/`):
+
 ```
 python3 planwarrior
 ```

@@ -21,7 +21,7 @@ def get_plan_file(p, dir):
 
 def main():
     args = cli.parse_args()
-    config = conf.parse(args.config)
+    config = conf.parse(Path(args.config).expanduser())
     plan = get_plan_file(args.plan, config['data_dir'])
     formatter = formatting.maker(config)
     for p, c, n in utils.peek_and_lookback(sorted(plan)):

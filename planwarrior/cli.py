@@ -7,7 +7,7 @@ def read_file(file_path):
 
 
 def parse_args():
-    default_config_path = "$HOME/.config/planwarrior/config.ini"
+    default_config_path = "~/.config/planwarrior/config.ini"
     p = argparse.ArgumentParser(description='Terminal dayplan visualizer')
     p.add_argument('--config', default=default_config_path,
                    type=str, help='path to config file')
