@@ -1,5 +1,5 @@
 import formatting
-from utils import *
+import utils
 import parsing
 
 
@@ -24,7 +24,7 @@ def main():
     # times = {x: '' for x in range(0, 24*60, config.get('resolution', 30))}
     # merged_plan = {**times, **parsed_plan}
     formatter = formatting.maker(config)
-    for p, c, n in peek_and_lookback(sorted(parsed_plan)):
+    for p, c, n in utils.peek_and_lookback(sorted(parsed_plan)):
         print('\n'.join(formatter(p, c, n, parsed_plan[c])))
 
 
