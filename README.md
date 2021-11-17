@@ -87,7 +87,7 @@ for the day.
 
 - TODO: Taskwarrior integration
 - TODO: Timewarrior integration?
-- TODO: Read plan from file
-- TODO: Read config from file
+- DONE: Read plan from file
+- DONE: Read config from file
 - TODO: Optional "live" mode?
 - TODO: Unit tests
