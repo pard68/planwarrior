@@ -10,7 +10,7 @@ def format_time(ms):
 
 
 def ms_to_hm(ms):
-    return (h := ms // 60), ms - (h*60)
+    return (h := ms // 60), ms - (h * 60)
 
 
 def message(s):
@@ -37,17 +37,18 @@ def maker(config):
         if e == ms:
             output.append(message(end_message))
         t = f"{format_time(ms)} "
-        if now >= ms and now < (next_ms or (23*60+59)):
+        if now >= ms and now < (next_ms or (23 * 60 + 59)):
             output.append(t + wrap_ansi(p))
             current_event = True
         elif ms < now:
             output.append(t + wrap_ansi(p, code='strike'))
         else:
-            output.append(t+p)
+            output.append(t + p)
         for x in range(((ms + r) // r) * r, next_ms or e, r):
             # t = format_time(x)
             pad = "         "
-            if current_event and now >= x and now < (next_ms or (23*60+59)):
+            if current_event and now >= x and now < (next_ms or
+                                                     (23 * 60 + 59)):
                 if now < x + r:
                     output.append(
                         wrap_ansi(pad + wrap_ansi("now", code='bold')))
@@ -58,4 +59,5 @@ def maker(config):
         if not next_ms and ms < e:
             output.append(message(end_message))
         return output
+
     return formatter

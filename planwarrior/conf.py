@@ -1,6 +1,5 @@
 import configparser
 
-
 CONFIG_TYPES = {
     'data_dir': str,
     'resolution': int,
