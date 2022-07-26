@@ -103,3 +103,4 @@ for the day.
  - [ ] Unit tests
  - [ ] `new` subcommand to create a plan file for current day
  - [ ] Read plans embedded in Markdown files
+ - [ ] Add support for calDAV so that plans can be added to a calendar
