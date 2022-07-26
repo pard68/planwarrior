@@ -95,10 +95,11 @@ for the day.
 
 ## Future Features
 
-- TODO: Taskwarrior integration
-- TODO: Timewarrior integration?
-- DONE: Read plan from file
-- DONE: Read config from file
-- TODO: Optional "live" mode?
-- TODO: Unit tests
-- TODO: `new` subcommand to create a plan file for current day
+ - [ ] Taskwarrior integration
+ - [ ] Timewarrior integration?
+ - [X] Read plan from file
+ - [X] Read config from file
+ - [ ] Optional "live" mode?
+ - [ ] Unit tests
+ - [ ] `new` subcommand to create a plan file for current day
+ - [ ] Read plans embedded in Markdown files
