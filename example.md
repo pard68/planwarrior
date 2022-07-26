@@ -1,0 +1,8 @@
+# Plan
+- [ ] 08:00 Plan day
+ - [ ] 08:30 Design planwarrior
+ - [ ] 10:00 Work on planwarrior poc
+ - [ ] 12:00 break for lunch
+ - [ ] 13:00 Finalize planwarrior poc
+ - [ ] 16:00 Publish planwarrior to GH
+ - [ ] 16:55 be lauded for my amazing snek skillz

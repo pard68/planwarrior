@@ -10,7 +10,7 @@ import utils
 
 def plan_from_dir(dir):
     now = datetime.datetime.now()
-    today_file = f"{now.year}{now.month}{now.day}.plan"
+    today_file = f"{now.year}{now.month}{now.day}.md"
     return dir + today_file
 
 

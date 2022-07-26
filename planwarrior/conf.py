@@ -7,6 +7,7 @@ CONFIG_TYPES = {
     'end_time': str,
     'start_message': str,
     'end_message': str,
+    'plan_heading': str,
 }
 
 DEFAULT_CONFIG = {
@@ -16,6 +17,7 @@ DEFAULT_CONFIG = {
     'end_time': '17:00',
     'start_message': "Good morning!",
     'end_message': "Have a good evening!",
+    'plan_heading': '',
 }
 
 
